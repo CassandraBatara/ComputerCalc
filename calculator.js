@@ -32,11 +32,11 @@ for (let i = 0; i < buttonValues.length; i++) {
         button.style.gridColumn = "span 2"; //take up 2 columns
     }
     else if (rightSymbols.includes(value)) {
-        button.style.backgroundColor = "#FF9500";
+        button.style.backgroundColor = "#FFFFFF";
     }
     else if (topSymbols.includes(value)) {        
-        button.style.backgroundColor = "#D4D4D2";
-        button.style.color = "#1C1C1C";
+        button.style.backgroundColor = "#F6C7B3";
+        button.style.color = "#82B2C0";
     }
 
     //process button clicks
